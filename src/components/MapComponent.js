@@ -3,7 +3,7 @@ import { MapContainer, TileLayer, CircleMarker, Tooltip } from "react-leaflet";
 import axios from "axios";
 import "leaflet/dist/leaflet.css";
 import "../App.css";
-import Legend from "./Legend"; // Adjust the path if necessary
+import Legend from "./Legend"; 
 
 const regionCoordinates = {
   US: [37.0902, -95.7129],
